@@ -1,0 +1,23 @@
+:root{
+    --spacing:10px;
+    --base:#ffc600;
+    --blur:10px;
+}
+img{
+    padding:var(--spacing);
+    background: var(--base);
+    filter:blur(var(--blur));
+}
+.h1{
+    color:var(--base);
+}
+body{
+    text-align: center;
+    background-color: #193549;
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+}
+.controls{
+    margin-bottom: 50px;
+}
